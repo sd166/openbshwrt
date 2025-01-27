@@ -435,6 +435,7 @@ if [ "$OMR_TARGET" = "bpi-r1" ]; then
 		done
 		echo "done"
 
+
 		# Create DSA port map file (will be filled on first boot, by uci-defaults and tells the system, that it is in DSA mode)
 		touch "$OMR_TARGET/${OMR_KERNEL}/source/target/linux/sunxi/base-files/etc/dsa.map"
 		
